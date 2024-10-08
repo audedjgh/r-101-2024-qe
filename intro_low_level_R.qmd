@@ -4,6 +4,29 @@ author: "Aude Dejonghe"
 format: html
 ---
 
+In R we have two broad categories of objects :
+ - functions
+ - data
+ 
+Functions apoerate on data or directly on R.
+
+This demonstrates a call of the function `i_am` from the package `here` applied to the data object `"r-101-2024-qe.Rproj"`.
+
+```{r}
+## package::function(...)
+here::i_am("r-101-2024-qe.Rproj")
+## library function from the base package
+library(here)
+```
+
+
+
+
+
+
+
+
+
 ## R objects
 
 R has variables that are used to access objects:
